@@ -1,2 +1,5 @@
-const name = 'trae';
-console.log('This should be blocked by linting!');
+function greet(name) {
+  return `hello ${name}`;
+}
+
+greet('ci');
