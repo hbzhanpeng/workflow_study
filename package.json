@@ -2,8 +2,8 @@
   "name": "double-gate-demo",
   "version": "1.0.0",
   "scripts": {
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "lint": "eslint src --cache",
+    "lint:fix": "eslint src --fix --cache",
     "test": "echo 'Run tests...' && exit 0",
     "prepare": "husky"
   },
